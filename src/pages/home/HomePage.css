@@ -1,0 +1,33 @@
+.itemShowContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  gap: 20px;
+}
+
+.myHomePageClass {
+  padding-top: 100px !important;
+}
+
+
+@media (max-width: 1000px) {
+  .itemShowContainer {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .myHomePageClass {
+    padding-top: 50px !important;
+  }
+}
+@media (max-width: 400px) {
+  .itemShowContainer {
+    grid-template-columns: 1fr 1fr;
+  }
+  .itemShowContainer .card-text {
+    font-size: 10px;
+  }
+}
+.myHomePageClass {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+

@@ -1,0 +1,10 @@
+.purshaseContainer {
+  min-height: 100%;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 50px;
+}
+.pushaseMain {
+  padding-top: 100px;
+  min-height: 100vh !important;
+}

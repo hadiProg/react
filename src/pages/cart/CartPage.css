@@ -1,0 +1,21 @@
+.mainContain {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+}
+
+.invoice-footer {
+  background-color: #f8f9fa; /* Light background */
+  border-radius: 0.25rem; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.table {
+  margin-top: 15px;
+}
+
+.table th,
+.table td {
+  vertical-align: middle; /* Align text vertically in the middle */
+}

@@ -1,0 +1,57 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body {
+  min-height: 100vh;
+  background-color: white;
+}
+#root {
+  height: 100%;
+}
+/* For Chrome, Safari, Edge, and Opera */
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* For Firefox */
+/* input[type="number"] {
+  -moz-appearance: textfield;
+} */
+.fs-20 {
+  font-size: 30px;
+  cursor: pointer;
+}
+.border-color-red {
+  border-color: red;
+}
+.border-color-green {
+  border-color: green;
+}
+.myClass {
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.myContainer {
+  min-height: calc(100vh - 56px) !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

@@ -1,0 +1,14 @@
+h2 {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+}
+
+.card-header {
+  background-color: #007bff;
+  color: white;
+  font-weight: bold;
+}
+
+.card-body {
+  font-size: 1rem;
+}

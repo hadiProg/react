@@ -1,0 +1,40 @@
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #f8f9fa;
+}
+.container {
+  padding-top: 50px;
+}
+.product-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.product-description {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+.product-price {
+  font-size: 2rem;
+  color: #28a745;
+  margin-bottom: 20px;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+}
+.product-description {
+  max-width: 100% !important;
+}
+.my_DIV {
+  display: inline-block;
+  width: 100% !important;
+  word-wrap: break-word;
+}

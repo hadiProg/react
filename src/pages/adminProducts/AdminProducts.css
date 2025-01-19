@@ -1,0 +1,31 @@
+.purshaseContainer {
+  min-height: 100%;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 50px;
+}
+.pushaseMain {
+  padding-top: 100px;
+  min-height: 100vh !important;
+}
+.purchaseMain {
+  padding: 20px;
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+}
+
+@media (max-width: 768px) {
+  .purchaseMain {
+    padding: 10px;
+    padding-top: 100px;
+  }
+
+  .btn {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .purchaseContainer {
+    padding: 10px;
+  }
+}

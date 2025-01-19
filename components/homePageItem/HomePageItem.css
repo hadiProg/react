@@ -1,0 +1,12 @@
+.myHomePageClass {
+  padding-top: 50px;
+}
+.myCard {
+  max-height: 500px;
+}
+.myCardFlex {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+

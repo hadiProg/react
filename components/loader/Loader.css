@@ -1,0 +1,7 @@
+.LoaderMainContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100% !important;
+  width: 100%;
+}
