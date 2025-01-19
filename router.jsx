@@ -1,4 +1,4 @@
-import { createBrowserRouter, createHashRouter } from "react-router-dom";
+import { createHashRouter } from "react-router-dom";
 import HomePage from "./src/pages/home/HomePage";
 import RegisterPage from "./src/pages/register/RegisterPage";
 import LoginPage from "./src/pages/login/LoginPage";
@@ -13,59 +13,58 @@ import AdminProducts from "./src/pages/adminProducts/AdminProducts";
 import CreateProduct from "./src/pages/createProduct/CreateProduct";
 import CartPage from "./src/pages/cart/CartPage";
 
-export const router = createHashRouter({
-  routes: [
-    {
-      path: "/",
-      element: <LoginPage />,
-    },
-    {
-      path: "/register",
-      element: <RegisterPage />,
-    },
-    {
-      path: "/home",
-      element: <HomePage />,
-    },
-    {
-      path: "/product/:id",
-      element: <ItemPage />,
-    },
-    {
-      path: "/purchase",
-      element: <PurshasePage />,
-    },
-    {
-      path: "/profile",
-      element: <ProfilePage />,
-    },
-    {
-      path: "/profileEdite",
-      element: <ProfileEditePage />,
-    },
-    {
-      path: "/createCompany",
-      element: <CreateCompany />,
-    },
-    {
-      path: "/admin",
-      element: <Admin />,
-    },
-    {
-      path: "/adminEdite",
-      element: <AdminEdite />,
-    },
-    {
-      path: "/adminProducts",
-      element: <AdminProducts />,
-    },
-    {
-      path: "/createProduct",
-      element: <CreateProduct />,
-    },
-    {
-      path: "/cart",
-      element: <CartPage />,
-    },
-  ],
-});
+export const router = createHashRouter([
+  {
+    path: "/",
+    element: <LoginPage />,
+  },
+  {
+    path: "/register",
+    element: <RegisterPage />,
+  },
+  {
+    path: "/home",
+    element: <HomePage />,
+  },
+  {
+    path: "/product/:id",
+    element: <ItemPage />,
+  },
+  {
+    path: "/purchase",
+    element: <PurshasePage />,
+  },
+  {
+    path: "/profile",
+    element: <ProfilePage />,
+  },
+  {
+    path: "/profileEdite",
+    element: <ProfileEditePage />,
+  },
+  {
+    path: "/createCompany",
+    element: <CreateCompany />,
+  },
+  {
+    path: "/admin",
+    element: <Admin />,
+  },
+  {
+    path: "/adminEdite",
+    element: <AdminEdite />,
+  },
+  {
+    path: "/adminProducts",
+    element: <AdminProducts />,
+  },
+  {
+    path: "/createProduct",
+    element: <CreateProduct />,
+  },
+  {
+    path: "/cart",
+    element: <CartPage />,
+  },
+]);
+///one
